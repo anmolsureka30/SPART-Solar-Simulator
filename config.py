@@ -32,14 +32,14 @@ def safe_create_directory(directory):
 # Airship Physical Specifications
 # =====================================
 AIRSHIP_SPECS = {
-    'length': 100.0,  # meters
-    'ld_ratio': 4.0,  # length to diameter ratio
-    'diameter': 25.0,  # meters
-    'weight': 5000.0,  # kg (empty weight)
-    'max_payload': 1000.0,  # kg
+    'length': 14.0,  # meters
+    'ld_ratio': 3.05,  # length to diameter ratio
+    'diameter': 4.6.0,  # meters
+    'weight': 150.0,  # kg (empty weight)
+    'max_payload': 10.0,  # kg
     'drag_coefficient': 0.03,  # dimensionless
-    'max_altitude': 3000.0,  # meters
-    'min_altitude': 100.0,  # meters
+    'max_altitude': 200.0,  # meters
+    'min_altitude': 50.0,  # meters
     'surface_area': None,  # Will be calculated based on length and diameter
     'volume': None,  # Will be calculated based on length and diameter
 }
@@ -82,9 +82,9 @@ SOLAR_SPECS = {
 # Flight Parameters
 # =====================================
 FLIGHT_PARAMS = {
-    'cruise_speed': 100.0,  # km/h
-    'max_speed': 150.0,  # km/h
-    'min_speed': 30.0,  # km/h
+    'cruise_speed': 10.0,  # km/h
+    'max_speed': 15.0,  # km/h
+    'min_speed': 3.0,  # km/h
     'time_interval': 10,  # minutes (for calculations)
     'max_turning_radius': 500.0,  # meters
     'altitude_change_rate': 2.0,  # meters/second
